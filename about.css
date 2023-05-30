@@ -1,0 +1,285 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    text-align: center;
+    align-items: center;
+    background-color: #f1efef;
+  }
+  
+  .about-greeting {
+    display: none;
+    margin-top: 60px;
+  }
+  
+  .about-title {
+    font-family: 'myFont', sans-serif;
+    color: #ec5242;
+    font-size: 60px;
+    max-width: 50vw;
+  }
+  
+  .about-year {
+    font-family: 'lato', sans-serif;
+  }
+  
+  .about-text {
+    max-width: 50vw;
+    background-color: #fff;
+    line-height: 30px;
+    padding: 20px;
+    margin-bottom: 2%;
+  }
+  
+  .link {
+    color: #000;
+    margin-bottom: 4%;
+  }
+  
+  .logo-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 4%;
+    border-style: solid;
+    border-color: #eeecec;
+    padding-bottom: 5%;
+  }
+  
+  .description-title {
+    max-width: 50vw;
+    font-size: 30px;
+  }
+  
+  .description-title::after {
+    content: "";
+    display: block;
+    width: 35px;
+    margin-left: 290px;
+    padding-top: 20px;
+    opacity: 0.9;
+    border-bottom: 3px solid #ec5242;
+  }
+  
+  .description-text {
+    max-width: 50vw;
+    margin-bottom: 2%;
+  }
+  
+  .description-logo {
+    max-width: 30vw;
+    border-style: solid;
+    border-color: #d3d3d3;
+    padding: 20px;
+  }
+  
+  .photos-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  
+  .photos-section-title {
+    max-width: 60vw;
+  }
+  
+  .photos-section-title::after {
+    content: "";
+    display: block;
+    width: 35px;
+    margin-left: 200px;
+    padding-top: 20px;
+    opacity: 0.9;
+    border-bottom: 3px solid #ec5242;
+  }
+  
+  .photos-section-text {
+    max-width: 60vw;
+    margin-bottom: 2%;
+  }
+  
+  .photos {
+    max-width: 90vw;
+    display: flex;
+    gap: 5px;
+  }
+  
+  .photo {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .photos-background {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    opacity: 0.6;
+  }
+  
+  .photos-text {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    height: 200px;
+  }
+  
+  .photo-text {
+    max-width: 300px;
+    align-self: center;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .photo-background1 {
+    background-color: #ec5242;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .photo-background2 {
+    background-color: #ec5242;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .credits-about {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 100vw;
+    padding: 30px 0;
+    background-color: #272a31;
+    color: #fff;
+  }
+  
+  .footer-logo-color {
+    display: none;
+  }
+  
+  .prtn-section-container {
+    display: none;
+  }
+  
+  .home-button {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .about-greeting {
+      display: block;
+      color: #ec5242;
+    }
+  
+    .about-title {
+      margin-top: 0;
+      font-size: 30px;
+      max-width: 90vw;
+    }
+  
+    .about-text {
+      max-width: 80vw;
+      font-size: 13px;
+      line-height: 24px;
+    }
+  
+    .link-text {
+      font-size: 13px;
+      max-width: 80vw;
+    }
+  
+    .description-title {
+      max-width: 80vw;
+      font-size: 20px;
+    }
+  
+    .description-text {
+      max-width: 80vw;
+    }
+  
+    .extra-text {
+      display: none;
+    }
+  
+    .description-logo {
+      margin-top: 4%;
+      max-width: 70vw;
+      margin-bottom: 2%;
+    }
+  
+    .description-title::after {
+      content: "";
+      display: block;
+      width: 35px;
+      margin-left: 165px;
+      padding-top: 20px;
+      opacity: 0.9;
+      border-bottom: 3px solid #ec5242;
+    }
+  
+    .photos-section {
+      padding-bottom: 10%;
+    }
+  
+    .photos-section-title {
+      max-width: 90vw;
+    }
+  
+    .photos-section-text {
+      max-width: 90vw;
+    }
+  
+    .photos {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .photos-text {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      gap: 110px;
+      height: unset;
+      margin-top: 70px;
+    }
+  
+    .photo-text {
+      max-width: 300px;
+      height: 100px;
+      align-self: center;
+      color: #fff;
+      font-size: 20px;
+    }
+  
+    .photos-background {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .credits-about {
+      color: #000;
+      background-color: #fff;
+    }
+  
+    .footer-logo-color {
+      display: block;
+      align-self: flex-start;
+      padding-top: 5px;
+    }
+  
+    .footer-logo {
+      display: none;
+    }
+  
+    .prtn-section-container {
+      display: flex;
+    }
+  
+    .home-button {
+      display: block;
+    }
+  }
+  
